@@ -163,7 +163,7 @@ Onde:
 
 ## 7. Gráfico de Tempo de Execução
 
-![Tempo de Execução](graficos/tempo_por_processos.png)
+![Tempo de Execução](tempo_por_processos.png)
 
 **Análise:** O gráfico mostra que o tempo de execução permanece aproximadamente constante (23.4 - 24.8 segundos) independentemente do número de processos. Não há redução significativa no tempo total com o aumento de processos.
 
@@ -171,7 +171,7 @@ Onde:
 
 ## 8. Gráfico de Speedup
 
-![Speedup vs Processos](graficos/speedup_vs_processos.png)
+![Speedup vs Processos](speedup_vs_processos.png)
 
 **Análise:** O speedup obtido é muito inferior ao esperado:
 - Speedup ideal para 12 processos seria 12.0
@@ -183,7 +183,7 @@ Onde:
 
 ## 9. Gráfico de Eficiência
 
-![Eficiência vs Processos](graficos/eficiencia_vs_processos.png)
+![Eficiência vs Processos](eficiencia_vs_processos.png)
 
 **Análise:** A eficiência cai drasticamente com o aumento do número de processos:
 - Com 1 processo: eficiência = 1.0
